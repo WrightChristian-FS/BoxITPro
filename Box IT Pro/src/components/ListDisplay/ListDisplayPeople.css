@@ -1,0 +1,53 @@
+#display-table {
+  max-width: 95%;
+  position: relative;
+}
+
+#display-table img {
+  /* position: absolute; */
+  right: 0.8rem;
+  top: -2.5rem;
+}
+
+#display-table button{
+  /* position: absolute;
+  right: 0.8rem;
+  top: -2.5rem; */
+}
+
+#filter-group{
+  position: absolute;
+  right: 0.8rem;
+  top: -2.5rem;
+}
+
+#display-table table {
+  background: #e9e9ea;
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 10px solid #e9e9ea;
+  border-right: 25px solid #e9e9ea;
+  border-left: 25px solid #e9e9ea;
+  border-bottom: 10px solid #e9e9ea;
+}
+
+#display-table th {
+  padding: 10px;
+  font-weight: bold;
+  color: #777777;
+  text-align: left;
+  border-bottom: 1px solid #777777;
+}
+#display-table td {
+  padding: 0.5rem;
+  color: #777777;
+}
+
+#delete-icon{
+  border-style: none;
+  margin-top: 5px;
+}
+
+#delete-icon img {
+  cursor: pointer;
+}

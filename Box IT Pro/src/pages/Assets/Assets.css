@@ -1,0 +1,49 @@
+#content-assets {
+  background: #f4f4f4;
+  display: grid;
+  grid-template-columns: 0.5fr 0.4fr 0.4fr 0.4fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr 0.5fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 5rem;
+  position: relative;
+}
+#content-assets > h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #bdbdbd;
+  position: absolute;
+}
+#content-assets > .card {
+  width: 11rem;
+  height: 11rem;
+}
+#content-assets > .card img {
+  width: 5rem;
+  height: 5rem;
+}
+#content-assets > .card h1 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.nav {
+  grid-area: 1 / 1 / 6 / 2;
+}
+#people-table {
+  grid-area: 3 / 2 / 6 / 5;
+}
+#content-assets > h1 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+#card-create {
+  grid-area: 2 / 2 / 3 / 3;
+}
+#card-delete {
+  grid-area: 2 / 3 / 3 / 4;
+}
+#card-edit {
+  grid-area: 2 / 4 / 3 / 5;
+}
+#search {
+  grid-area: 1 / 5 / 2 / 6;
+}

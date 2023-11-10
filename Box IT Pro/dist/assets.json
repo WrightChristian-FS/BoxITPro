@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "Laptop",
+    "Name": "NB12345",
+    "Make": "HP",
+    "Model": "G5",
+    "SerialNumber": "BY39KRHL39",
+    "AssignedTo": "ALEX GOPHER",
+    "Price": "$867.55",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Laptop",
+    "Name": "NB4546",
+    "Make": "DELL",
+    "Model": "LATITUDE",
+    "SerialNumber": "G393JFIEJ",
+    "AssignedTo": "JIMMY ALEX",
+    "Price": "$1,547.33",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Laptop",
+    "Name": "NB8526",
+    "Make": "DELL",
+    "Model": "LATITUDE ELITE",
+    "SerialNumber": "BXY393JC",
+    "AssignedTo": "UNASSIGNED",
+    "Price": "$1,547.33",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Phone",
+    "Name": "A023",
+    "Make": "Apple",
+    "Model": "iPhone 14 Pro",
+    "SerialNumber": "JDK3839N",
+    "AssignedTo": "JIMMY BUFFET",
+    "Price": "$1,098.00",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Laptop",
+    "Name": "NB12345",
+    "Make": "HP",
+    "Model": "G5",
+    "SerialNumber": "BY39KRHL39",
+    "AssignedTo": "ALEX GOPHER",
+    "Price": "$867.55",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Laptop",
+    "Name": "NB4546",
+    "Make": "DELL",
+    "Model": "LATITUDE",
+    "SerialNumber": "G393JFIEJ",
+    "AssignedTo": "JIMMY ALEX",
+    "Price": "$1,547.33",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Laptop",
+    "Name": "NB8526",
+    "Make": "DELL",
+    "Model": "LATITUDE ELITE",
+    "SerialNumber": "BXY393JC",
+    "AssignedTo": "UNASSIGNED",
+    "Price": "$1,547.33",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Phone",
+    "Name": "A023",
+    "Make": "Apple",
+    "Model": "iPhone 14 Pro",
+    "SerialNumber": "JDK3839N",
+    "AssignedTo": "JIMMY BUFFET",
+    "Price": "$1,098.00",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Laptop",
+    "Name": "NB8526",
+    "Make": "DELL",
+    "Model": "LATITUDE ELITE",
+    "SerialNumber": "BXY393JC",
+    "AssignedTo": "UNASSIGNED",
+    "Price": "$1,547.33",
+    "Warranty": "12/15/2025"
+  },
+  {
+    "Type": "Phone",
+    "Name": "A023",
+    "Make": "Apple",
+    "Model": "iPhone 14 Pro",
+    "SerialNumber": "JDK3839N",
+    "AssignedTo": "JIMMY BUFFET",
+    "Price": "$1,098.00",
+    "Warranty": "12/15/2025"
+  }
+]

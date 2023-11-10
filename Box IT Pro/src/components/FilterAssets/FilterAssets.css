@@ -1,0 +1,34 @@
+#filter-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr, 0.5fr, 1fr, 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
+}
+
+#filter-form label {
+  padding-left: 1rem;
+}
+
+#filter-form > div:first-of-type {
+  grid-area: 1 / 1 / 2 / 3;
+}
+#filter-form > div:nth-of-type(2) {
+  grid-area: 2 / 1 / 3 / 3;
+}
+#filter-form > div:nth-of-type(3) {
+  grid-area: 3 / 1 / 4 / 2;
+}
+#filter-form > div:nth-of-type(4) {
+  grid-area: 3 / 2 / 4 / 3;
+}
+#filter-form > div:last-of-type {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.group section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20px;
+}

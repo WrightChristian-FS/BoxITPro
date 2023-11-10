@@ -1,0 +1,49 @@
+#content-people {
+  background: #f4f4f4;
+  display: grid;
+  grid-template-columns: 0.5fr 0.4fr 0.4fr 0.4fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr 0.5fr;
+  grid-column-gap: 2rem;
+  grid-row-gap: 5rem;
+  position: relative;
+}
+#content-people > h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #bdbdbd;
+  position: absolute;
+}
+#content-people > .card {
+  width: 11rem;
+  height: 11rem;
+}
+#content-people > .card img {
+  width: 5rem;
+  height: 5rem;
+}
+#content-people > .card h1 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.nav {
+  grid-area: 1 / 1 / 6 / 2;
+}
+#display-table {
+  grid-area: 3 / 2 / 6 / 6;
+}
+#content-people > h1 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+#card-create {
+  grid-area: 2 / 2 / 3 / 3;
+}
+#card-delete {
+  grid-area: 2 / 3 / 3 / 4;
+}
+#card-edit {
+  grid-area: 2 / 4 / 3 / 5;
+}
+#search {
+  grid-area: 1 / 5 / 2 / 6;
+}

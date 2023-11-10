@@ -1,0 +1,22 @@
+#content {
+  background: #f4f4f4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.2fr 1fr 0.2fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+}
+
+.nav {
+  grid-area: 1 / 1 / 6 / 2;
+}
+
+#card-assets {
+  grid-area: 4 / 2 / 6 / 3;
+}
+
+#card-people {
+  grid-area: 4 / 4 / 6 / 5;
+}
+
+#content > #search {
+  grid-area: 1 / 4 / 2 / 5;
+}

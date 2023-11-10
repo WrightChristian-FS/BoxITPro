@@ -1,0 +1,42 @@
+.modal-content {
+  width: 35rem;
+}
+
+.modal-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  flex: 100;
+}
+
+.create-modal {
+  background-color: #f3f3f4;
+  padding: 1rem 3rem;
+}
+
+.btn {
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.create-modal > form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 4rem;
+  grid-row-gap: 20px;
+}
+.create-modal input,
+.create-modal label {
+  display: block;
+}
+.create-modal input {
+  width: 100%;
+}
+
+.error-message {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: red;
+}

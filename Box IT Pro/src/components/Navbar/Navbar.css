@@ -1,0 +1,50 @@
+.nav a {
+  color: grey;
+  text-decoration: none;
+}
+.nav {
+  width: 15rem;
+  height: 100vh;
+  background: #0b3c6d;
+  padding: 1rem;
+  align-items: center;
+}
+
+.nav-link {
+  align-items: center;
+  margin: 0 0 1.2rem 0;
+}
+.nav-link img {
+  margin-right: 2rem;
+}
+
+#branding {
+  position: relative;
+  padding: 1rem;
+  justify-content: center;
+}
+#branding > h2 {
+  color: white;
+  margin: 0;
+}
+#branding::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 1px;
+  background: grey;
+  bottom: 0;
+}
+
+#nav-profile img {
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+
+.highlight a {
+  font-weight: bold;
+  color: white;
+}
+.highlight img {
+  filter: brightness(3);
+}

@@ -1,0 +1,19 @@
+#search {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+#search > input {
+  height: 2.2rem;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 2px 5px 1px grey;
+  padding: 2px 2.1rem;
+}
+#search > input:focus {
+  outline: 2px solid darkgray;
+}
+#search > span {
+  position: relative;
+  left: 2rem;
+}
